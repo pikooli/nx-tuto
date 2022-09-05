@@ -1,0 +1,14 @@
+{
+  "root": "packages/cow",
+  "sourceRoot": "packages/cow/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node src/index.js",
+        "cwd": "packages/cow"
+      }
+    }
+  }
+}
